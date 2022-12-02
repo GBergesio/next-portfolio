@@ -5,6 +5,9 @@ import Technologies from '../components/Technologies/Technologies';
 import Timeline from '../components/TimeLine/TimeLine';
 import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
+import dynamic from 'next/dynamic';
+
+// const { Layout } = dynamic(() => import("../layout/Layout"), { ssr: false, });
 
 const Home = () => {
   return (

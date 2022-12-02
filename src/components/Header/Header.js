@@ -6,13 +6,16 @@ import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyle
 const Header = () => (
   <Container>
     <Div1>
-      <Link href="/">
-        {/* <a style={{ display: 'flex', alignItems: 'center', color: "white" }}>
-          <img src="/logoPng.png" height={40} width={40} /> <span style={{ marginLeft: 10, marginTop: 7, fontSize: 20 }} >GBergesio</span>
-        </a> */}
+      <Link href="/" style={{ display: 'flex', alignItems: 'center', color: "white" }}>
+        <img src="/logoPng.png" height={40} width={40} /> <span style={{ marginLeft: 10, marginTop: 7, fontSize: 20 }} >GBergesio</span>
       </Link>
     </Div1>
     <Div2>
+      <li>
+        <Link href="#projects">
+          <NavLink>Projects</NavLink>
+        </Link>
+      </li>
       <li>
         <Link href="#projects">
           <NavLink>Projects</NavLink>

@@ -48,9 +48,6 @@ const Timeline = () => {
       <SectionText>
         In my journey to this day, I have been able to learn a lot about development, life in general,
         and I have also met wonderful people who helped me become who I am today.
-        <SectionSubText>
-          Personally, I want to specialize as a backend developer because I really enjoy working in this area.
-        </SectionSubText>
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
