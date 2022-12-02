@@ -14,7 +14,7 @@ const Hero = (props) => (
           Hey there,
         </SectionTitle>
         <SectionText>
-          I'm {dev} , a Full Stack Developer Based In Córdoba.
+          I&apos;m {dev} , a Full Stack Developer Based In Córdoba.
         </SectionText>
         <Button onClick={(e) => {
           e.preventDefault();
